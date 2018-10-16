@@ -1,4 +1,4 @@
-package com.caesar84mx.mykotlinapplication
+package com.caesar84mx.mykotlinapplication.mainscreen
 
 import android.app.Activity
 import android.os.Bundle
@@ -8,7 +8,8 @@ import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.widget.Toast
-import com.caesar84mx.mykotlinapplication.model.Hero
+import com.caesar84mx.mykotlinapplication.R
+import com.caesar84mx.mykotlinapplication.mvp.model.Hero
 import com.caesar84mx.mykotlinapplication.util.HeroesAdapter
 import com.caesar84mx.mykotlinapplication.util.HeroesApi
 import com.caesar84mx.mykotlinapplication.util.config.MykotlinapplicationApp
@@ -19,7 +20,7 @@ import retrofit2.Response
 import retrofit2.Retrofit
 import javax.inject.Inject
 
-class MainActivity : Activity() {
+class MainScreenActivity : Activity() {
     @Inject
     lateinit var retrofit: Retrofit
 

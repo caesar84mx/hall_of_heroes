@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.caesar84mx.mykotlinapplication.HeroDetailsActivity
 import com.caesar84mx.mykotlinapplication.R
-import com.caesar84mx.mykotlinapplication.model.Hero
+import com.caesar84mx.mykotlinapplication.herodetails.HeroDetailsActivity
+import com.caesar84mx.mykotlinapplication.mvp.model.Hero
 import com.squareup.picasso.Picasso
 
 /**

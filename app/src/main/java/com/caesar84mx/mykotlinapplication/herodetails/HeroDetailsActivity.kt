@@ -1,8 +1,9 @@
-package com.caesar84mx.mykotlinapplication
+package com.caesar84mx.mykotlinapplication.herodetails
 
 import android.app.Activity
 import android.os.Bundle
-import com.caesar84mx.mykotlinapplication.model.Hero
+import com.caesar84mx.mykotlinapplication.R
+import com.caesar84mx.mykotlinapplication.mvp.model.Hero
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_hero_details.*
 

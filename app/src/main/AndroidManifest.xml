@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity android:name=".mainscreen.MainScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,12 +21,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HeroDetailsActivity"
+            android:name=".herodetails.HeroDetailsActivity"
             android:label="@string/details_activity"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".mainscreen.MainScreenActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".mainscreen.MainScreenActivity"/>
         </activity>
     </application>
 

@@ -1,6 +1,6 @@
 package com.caesar84mx.mykotlinapplication.util.config
 
-import com.caesar84mx.mykotlinapplication.MainActivity
+import com.caesar84mx.mykotlinapplication.mainscreen.MainScreenActivity
 import dagger.Component
 import javax.inject.Singleton
 
@@ -10,5 +10,5 @@ import javax.inject.Singleton
 @Component(modules = [(GlobalConfigModule::class)])
 @Singleton
 interface GlobalConfigComponent {
-    fun inject(mainActivity: MainActivity)
+    fun inject(mainScreenActivity: MainScreenActivity)
 }
