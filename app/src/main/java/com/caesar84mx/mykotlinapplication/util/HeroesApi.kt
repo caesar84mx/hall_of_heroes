@@ -1,6 +1,6 @@
 package com.caesar84mx.mykotlinapplication.util
 
-import com.caesar84mx.mykotlinapplication.model.Hero
+import com.caesar84mx.mykotlinapplication.mvp.model.Hero
 import retrofit2.Call
 import retrofit2.http.GET
 

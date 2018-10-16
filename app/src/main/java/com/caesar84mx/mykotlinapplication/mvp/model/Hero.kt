@@ -1,4 +1,4 @@
-package com.caesar84mx.mykotlinapplication.model
+package com.caesar84mx.mykotlinapplication.mvp.model
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
