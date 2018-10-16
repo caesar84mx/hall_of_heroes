@@ -1,5 +1,6 @@
-package com.caesar84mx.mykotlinapplication.util.config
+package com.caesar84mx.mykotlinapplication.config
 
+import com.caesar84mx.mykotlinapplication.mainscreen.MainScreenPresenter
 import dagger.Module
 import dagger.Provides
 import retrofit2.Retrofit
@@ -22,4 +23,8 @@ class GlobalConfigModule {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
     }
+
+    @Provides
+    @Singleton
+    fun provideMainScreenPresenter(): MainScreenPresenter = MainScreenPresenter()
 }

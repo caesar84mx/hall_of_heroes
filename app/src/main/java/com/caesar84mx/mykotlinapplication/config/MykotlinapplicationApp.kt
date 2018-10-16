@@ -1,4 +1,4 @@
-package com.caesar84mx.mykotlinapplication.util.config
+package com.caesar84mx.mykotlinapplication.config
 
 import android.app.Application
 
