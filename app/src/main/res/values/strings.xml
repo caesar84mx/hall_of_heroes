@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Hall of Heroes</string>
+    <string name="hello">Welcome to the Hall of Heroes</string>
+    <string name="maNoNetwork">No access to Valhalla</string>
+    <string name="maHeroesNotFound">No heroes found in Valhalla</string>
+    <string name="avatarText">Avatar</string>
+    <string name="labelName">Name</string>
+    <string name="labelRealName">Real Name</string>
+    <string name="labelTeam">Team</string>
+    <string name="labelFirstAppeared">First Appeared In</string>
+    <string name="labelCreatedBy">Created By</string>
+    <string name="labelPublisher">Published By</string>
+    <string name="labelBio">Biography</string>
+    <string name="list_item_real_name">Real name: %s</string>
+    <string name="list_item_publisher_and_year">Published in %d in %s</string>
+    <string name="list_item_team">Team: %s</string>
+    <string name="details_activity">Hero Details</string>
+</resources>
