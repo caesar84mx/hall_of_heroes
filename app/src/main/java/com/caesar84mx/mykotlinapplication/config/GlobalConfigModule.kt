@@ -1,5 +1,6 @@
 package com.caesar84mx.mykotlinapplication.config
 
+import com.caesar84mx.mykotlinapplication.herodetails.HeroDetailsPresenter
 import com.caesar84mx.mykotlinapplication.mainscreen.MainScreenPresenter
 import dagger.Module
 import dagger.Provides
@@ -27,4 +28,8 @@ class GlobalConfigModule {
     @Provides
     @Singleton
     fun provideMainScreenPresenter(): MainScreenPresenter = MainScreenPresenter()
+
+    @Provides
+    @Singleton
+    fun provideHeroDetailsPresenter(): HeroDetailsPresenter = HeroDetailsPresenter()
 }
